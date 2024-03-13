@@ -19,6 +19,9 @@ La seguridad de la API se basa en un sistema de autenticacion y autorizacion med
 Para la autenticacion se utiliza un sistema de login con usuario y contraseña, el cual devuelve un token JWT.
 Para la autorizacion se utiliza un sistema de roles, los cuales se asignan a los usuarios y permiten el acceso a ciertos recursos.
 
+# DB
+![](bd.png)
+<br/><br/>
 
 
 ## Autor
