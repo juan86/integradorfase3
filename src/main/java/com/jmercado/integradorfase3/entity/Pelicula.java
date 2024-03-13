@@ -1,6 +1,6 @@
 package com.jmercado.integradorfase3.entity;
 
-import java.util.List;
+import java.util.Set;
 
 import lombok.Data;
 
@@ -9,6 +9,6 @@ public class Pelicula {
     private Integer id;
     private String titulo;
     private String urlWeb;
-    private List<Genero> generos;
+    private Set<Genero> generos;
     private ImagenPelicula imagen;
 }
