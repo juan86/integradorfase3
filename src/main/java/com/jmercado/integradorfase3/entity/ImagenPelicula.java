@@ -21,7 +21,7 @@ public class ImagenPelicula {
     @Column( name = "img_nombre_archivo", nullable = false, length = 100)
     private String nombreArchivo;
     @Lob
-    @Column( name = "img_imagen", nullable = false, columnDefinition = "LONG")
+    @Column( name = "img_imagen", nullable = false, columnDefinition = "LONGBLOB")
     private byte[] imagenArchivo;
     @OneToOne(mappedBy = "imagenPelicula")
     private Pelicula pelicula;

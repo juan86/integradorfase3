@@ -34,6 +34,6 @@ public class Pelicula {
                 inverseJoinColumns = {@JoinColumn(name="generos_gen_id")})
     private Set<Genero> generos;
     @OneToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "pel_imagen", referencedColumnName = "img_id", nullable = false)
+    @JoinColumn(name = "pel_imagen_id", referencedColumnName = "img_id", nullable = false)
     private ImagenPelicula imagenPelicula;
 }
